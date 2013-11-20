@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>jQuery Loupe plugin</title>
+        <meta name="description" content="The jQuery Loupe is a jQuery plugin written by Marius Stanciu - Sergiu for Userdot, a plugin which gives you the ability to add zoom on hover ability for your photos with single line of code. With Loupe you have the ability to control the zoom level and loupe size via mouse scroll which gives you the opportunity to enlarge areas that you might be interested in." />
+        <meta name="keywords" content="jquery, loupe, zoom, enhance, userdot" />
+        <link rel="stylesheet" media="screen" href="css/documentation.css" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.2.js"></script>
+        <script type="text/javascript" src="js/jquery.loupe.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/jquery.loupe.css" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <div class="container_6 clearfix">
+                    <h1 class="grid_6"><a href="">jQuery Loupe plugin</a> <span class="supersmall">by <a href="http://www.userdot.net">UserDot</a></span></h1>
+                </div>
+            </header>
+            <section>
+                <div class="container_6 clearfix">
+                    <section class="main-section grid_6">
+                        <div class="main-content">
+                            <header>
+                                <h2>Documentation</h2>
+                            </header>
+                            <section class="clearfix">
+                                <div>
+                                    <img class="fr" alt="Logo" src="images/logo.png" />
+                                    <h3>Overview</h3>
+                                    <hr />
+                                    <p>The jQuery Loupe is a <a href="http://www.jquery.com">jQuery</a> plugin written by Marius Stanciu - Sergiu for <a href="http://www.userdot.net">Userdot</a>, a plugin which gives you the ability to add zoom on hover ability for your photos with single line of code. With Loupe you have the ability to control the zoom level and loupe size via mouse scroll which gives you the opportunity to enlarge areas that you might be interested in.</p>
+                                    <h3>Download</h3>
+                                    <hr />
+                                    <p>You can download the <a href="http://www.userdot.net/files/jquery/jquery.loupe-1.0.0.zip">last version of the plugin</a>, or <a href="http://www.userdot.net/files/jquery/">browse the archive</a> for older versions.</p>
+                                </div>
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                <div class="container_6 clearfix">
+                    <section class="main-section grid_6">
+                        <div class="main-content">
+                            <header>
+                                <h2>Usage</h2>
+                            </header>
+                            <section class="clearfix">
+                                <div>
+                                    <p>First you need to include the jQuery library, since Loupe is a plugin. You can download it from the <a href="http://www.jquery.com">jQuery website</a> or link it directly from the Google CDN.</p>
+                                    <code>
+                                        &lt;script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"&gt;&lt;/script&gt;
+                                    </code>
+                                    <p>Secondly, you need to include the jQuery Loupe javascript and the css file into your page. You can do it by adding the code below to your page.</p>
+                                    <code>
+                                        &lt;script type="text/javascript" src="js/jquery.loupe.js"&gt;&lt;/script&gt;<br />
+                                        &lt;link rel="stylesheet" type="text/css" href="css/jquery.loupe.css" /&gt;
+                                    </code>
+                                    <p>Next, you implement the actual image(s) that will be magnified/zoomed by the Loupe. The structure is as simple as it can get.</p>
+                                    <code>
+                                        &lt;a href="#"&gt;&lt;img alt="Your image caption" src="your-image.jpg" id="loupe1" /&gt;&lt;/a&gt;
+                                    </code>
+                                    <p>As the last step, you trigger the Loupe function on the element you just created. In this case, we trigger the function on the image with the id <em>loupe1</em>.</p>
+                                    <code>
+                                        &lt;script type="text/javascript"&gt;<br />
+                                        $(document).ready(function(){<br />
+                                        &nbsp;&nbsp;&nbsp;$('#loupe1').loupe({<br />
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'max_size' : 600,<br />
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'loupe_toggle_time' : 'fast'<br />
+                                        &nbsp;&nbsp;&nbsp;});<br />
+                                        });<br />
+                                        &lt;/script&gt;
+                                    </code>
+                                    <h3>Options</h3>
+                                    <hr />
+                                    <p><mark>shape</mark> - the shape of the Loupe. Options can be: circle/rounded/square</p>
+                                    <p><mark>glossy</mark> - if the Loupe is glossy or not. Options: true/false</p>
+                                    <p><mark>drop_shadow</mark> - if the Loupe will have a drop-shadow effect. Options: true/false</p>
+                                </div>
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                <div class="container_6 clearfix">
+                    <section class="main-section grid_6">
+                        <div class="main-content">
+                            <header>
+                                <h2>Demo</h2>
+                            </header>
+                            <section class="clearfix">
+                                <div>
+                                    <div class="container">
+                                        <a href="#"><img alt="" src='images/demo/image1.jpg' id="loupe1" /></a> 
+                                        <p><em>Classic rounded shape of loupe, dark semi-transparent overlay and 100% zoom for best visual effect. Use mouse scroll to change size of loupe or hold 'z' on keyboard and scroll to change the zoom.</em></p>
+                                    </div>
+                                    <div class="container">
+                                        <a href="images/demo/image2.jpg" id="loupe2"><img alt="" src="images/demo/image2.jpg" /></a> 
+                                        <p><em>This example shows loupe with some custom settings. Almost every aspect of look and feel can be changed. Here custom image overlay is applied, shape, size, snap, min/max size are changed also. You can easily allow/forbid size/zoom changing to end user. Zoom in is disabled, but use mouse scroll to change size of loupe.</em></p>
+                                    </div>
+                                    <div class="container">
+                                        <a href="images/demo/image3-big.jpg" id="loupe3"><img alt="" src="images/demo/image3.jpg" /></a> 
+                                        <p><em>Here we can see squared shape in action. Shadow and lens glossy effect can easily be removed using plugin settings. Use mouse scroll to change size of loupe or hold 'z' on keyboard and scroll to change the zoom.</em></p>
+                                    </div>
+                                    <div class="container">
+                                        <a href="images/demo/image4-big.jpg" id="loupe4"><img alt="" src="images/demo/image4.jpg" /></a> 
+                                        <p><em>Once again classic rounded loupe but this time without image overlay and optional shadow. Use mouse scroll to change size of loupe or hold 'z' on keyboard and scroll to change the zoom.</em></p>
+                                    </div>
+                                    <div class="container">
+                                        <a href="images/demo/image5.jpg" id="loupe5"><img alt="" src="images/demo/image5-grey.jpg" /></a>
+                                        <p><em>This time we specify other image which has to be rendered inside loupe. Basically it's the same image as source but with one difference - it's not a greyscale image. Using different images as thumb and target is very easy to setup and can create stunning effects. No resize & zoom allowed - scroll event ignore and handled by browser - scrolls page.</em></p>
+                                    </div>
+                                    <div class="container">
+                                        <a href="images/demo/image6.jpg" id="loupe6"><img alt="" src="images/demo/image6-blur.jpg" /></a>	 	
+                                        <p><em>The same story here - two images one normal and second altered for a nice effect. Use mouse scroll to change size of loupe or hold 'z' on keyboard and scroll to change zoom factor.</em></p>
+                                    </div>
+                                    <script type="text/javascript">
+                                        $(document).ready(function()
+                                        {
+                                            $('#loupe1').loupe({
+                                                'max_size' : 600,
+                                                'default_size' : 160,
+                                                'loupe_toggle_time' : 'fast'
+                                            });
+                                            $('#loupe2').loupe({
+                                                'overlay_class_name': 'overlay_img',
+                                                'shape' : 'rounded',
+                                                'default_size' : 160,
+                                                'min_size' : 200,															
+                                                'max_size' : 400,
+                                                'size_snap' : 25,
+                                                'allow_zoom' : false
+                                            });
+                                            $('#loupe3').loupe({
+                                                'default_zoom': 100,
+                                                'shape' : 'square',
+                                                'default_size' : 160,
+                                                'glossy' : false,
+                                                'drop_shadow' : false 
+                                            });
+                                            $('#loupe4').loupe({
+                                                'default_zoom': 100,
+                                                'default_size' : 160,
+                                                'apply_overlay' : false,
+                                                'drop_shadow' : false 
+                                            });
+                                            $('#loupe5').loupe({
+                                                'default_size' : 160,
+                                                'apply_overlay' : false,
+                                                'shape' : 'rounded',
+                                                'allow_zoom' : false,
+                                                'allow_resize' : false
+                                            });
+                                            $('#loupe6').loupe();
+                                        });
+                                    </script>
+                                </div>
+                            </section>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </div>
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-17350501-3']);
+            _gaq.push(['_trackPageview']);
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </body>
+</html>

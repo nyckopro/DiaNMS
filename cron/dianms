@@ -1,0 +1,3 @@
+*/1    * * * *  root   /usr/local/dianms/scripts/polling_new.php 2>&1 >> /tmp/log_polling_new.log
+*/1    * * * *  root   /usr/local/dianms/scripts/rrdgetdata.sh 2>&1 >> /var/log/dianms.rrdgetdata.log
+*/15	* * * *	root	/usr/sbin/ntpdate pool.ntp.org

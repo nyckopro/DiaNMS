@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>DIANMS-PING-Router</name>
+  <icon>icmpRouter.png</icon>
+  <connections>
+    <point x="11.345" y="13.375"/>
+    <point x="14.735" y="16.765"/>
+    <point x="11.345" y="16.765"/>
+    <point x="11.345" y="15.07"/>
+    <point x="14.735" y="13.375"/>
+    <point x="14.735" y="15.07"/>
+    <point x="13.04" y="16.765"/>
+    <point x="13.04" y="13.375"/>
+    <point x="11.345" y="13.375"/>
+    <point x="14.735" y="16.765"/>
+    <point x="11.345" y="16.765"/>
+    <point x="11.345" y="15.07"/>
+    <point x="14.735" y="13.375"/>
+    <point x="14.735" y="15.07"/>
+    <point x="13.04" y="16.765"/>
+    <point x="13.04" y="13.375"/>
+    <point x="13.4129" y="14.1886"/>
+    <point x="13.2434" y="13.8496"/>
+    <point x="13.0739" y="14.1886"/>
+    <point x="13.3282" y="14.0191"/>
+    <point x="13.1586" y="14.0191"/>
+    <point x="12.1586" y="15.1039"/>
+    <point x="11.8196" y="15.2734"/>
+    <point x="12.1586" y="15.4429"/>
+    <point x="11.9891" y="15.1886"/>
+    <point x="11.9891" y="15.3581"/>
+    <point x="13.9553" y="15.0361"/>
+    <point x="14.2943" y="14.8666"/>
+    <point x="13.9553" y="14.6971"/>
+    <point x="14.1248" y="14.9513"/>
+    <point x="14.1248" y="14.7818"/>
+    <point x="12.701" y="15.9514"/>
+    <point x="12.8705" y="16.2904"/>
+    <point x="13.04" y="15.9514"/>
+    <point x="12.7858" y="16.1209"/>
+    <point x="12.9552" y="16.1209"/>
+  </connections>
+ <ext_attributes>
+    <ext_attribute name="Host" type="string" />
+  </ext_attributes>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:rect style="fill: #9f9f9f" x="11.345" y="13.375" width="3.39" height="3.39"/>
+    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.1; " x="11.345" y="13.375" width="3.39" height="3.39"/>
+    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.1; " x="11.345" y="13.375" width="3.39" height="3.39"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.13; stroke: #ffffff" d="M 13.2497 13.9237 C 13.2497,15.6187 13.5887,15.2797 11.8937,15.2797"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.08; " d="M 13.2497 13.9237 C 13.2497,15.6187 13.5887,15.2797 11.8937,15.2797"/>
+    <svg:polygon style="fill: #000000" points="13.4129,14.1886 13.2434,13.8496 13.0739,14.1886 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; " points="13.4129,14.1886 13.2434,13.8496 13.0739,14.1886 "/>
+    <svg:polygon style="fill: #000000" points="12.1586,15.1039 11.8196,15.2734 12.1586,15.4429 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; " points="12.1586,15.1039 11.8196,15.2734 12.1586,15.4429 "/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.13; stroke: #ffffff" d="M 14.2556 14.8773 C 12.5606,14.8773 12.8996,14.5383 12.8996,16.2333"/>
+    <svg:path style="fill: none; fill-opacity:0; stroke-width: 0.08; " d="M 14.2556 14.8773 C 12.5606,14.8773 12.8996,14.5383 12.8996,16.2333"/>
+    <svg:polygon style="fill: #000000" points="13.9553,15.0361 14.2943,14.8666 13.9553,14.6971 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="13.9553,15.0361 14.2943,14.8666 13.9553,14.6971 "/>
+    <svg:polygon style="fill: #000000" points="12.701,15.9514 12.8705,16.2904 13.04,15.9514 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="12.701,15.9514 12.8705,16.2904 13.04,15.9514 "/>
+  </svg:svg>
+</shape>

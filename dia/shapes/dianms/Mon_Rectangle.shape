@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>DIANMS-PING-Rectangle</name>
+  <icon>Mon_Rectangle.png</icon>
+  <connections>
+    <point x="2.65" y="3.3"/>
+    <point x="10.5906" y="6.45"/>
+    <point x="2.65" y="6.45"/>
+    <point x="2.65" y="4.875"/>
+    <point x="10.5906" y="3.3"/>
+    <point x="10.5906" y="4.875"/>
+    <point x="6.62031" y="6.45"/>
+    <point x="6.62031" y="3.3"/>
+  </connections>
+ <ext_attributes>
+    <ext_attribute name="Host" type="string" />
+  </ext_attributes>
+  <aspectratio type="free"/>
+  <svg:svg>
+    <svg:rect style="fill: default; fill-opacity:0;" x="2.65" y="3.3" width="7.94062" height="3.15"/>
+  </svg:svg>
+</shape>

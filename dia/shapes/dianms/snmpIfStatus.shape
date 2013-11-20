@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>DIANMS-IfStatus</name>
+  <icon>snmpIfStatus.png</icon>
+  <connections>
+    <point x="9" y="14.4"/>
+    <point x="10" y="14.4"/>
+    <point x="10" y="15.1"/>
+    <point x="9.8" y="15.1"/>
+    <point x="9.8" y="15.3"/>
+    <point x="9.7" y="15.3"/>
+    <point x="9.7" y="15.4"/>
+    <point x="9.3" y="15.4"/>
+    <point x="9.3" y="15.3"/>
+    <point x="9.2" y="15.3"/>
+    <point x="9.2" y="15.1"/>
+    <point x="9" y="15.1"/>
+    <point x="9.5" y="14.4"/>
+    <point x="10" y="14.75"/>
+    <point x="9.9" y="15.1"/>
+    <point x="9.8" y="15.2"/>
+    <point x="9.75" y="15.3"/>
+    <point x="9.7" y="15.35"/>
+    <point x="9.5" y="15.4"/>
+    <point x="9.3" y="15.35"/>
+    <point x="9.25" y="15.3"/>
+    <point x="9.2" y="15.2"/>
+    <point x="9.1" y="15.1"/>
+  </connections>
+ <ext_attributes>
+    <ext_attribute name="SNMP.Host" type="string" />
+    <ext_attribute name="SNMP.Community" type="string" />
+    <ext_attribute name="SNMP.Version" type="string" />
+    <ext_attribute name="SNMP.Instance" type="int" />
+  </ext_attributes>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:polygon style="fill: #ffffff" points="9,14.4 10,14.4 10,15.1 9.8,15.1 9.8,15.3 9.7,15.3 9.7,15.4 9.3,15.4 9.3,15.3 9.2,15.3 9.2,15.1 9,15.1 "/>
+    <svg:polygon style="fill: default; fill-opacity:0; stroke-width: 0.1; " points="9,14.4 10,14.4 10,15.1 9.8,15.1 9.8,15.3 9.7,15.3 9.7,15.4 9.3,15.4 9.3,15.3 9.2,15.3 9.2,15.1 9,15.1 "/>
+  </svg:svg>
+</shape>

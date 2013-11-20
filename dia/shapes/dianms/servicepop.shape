@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>DIANMS-service-pop</name>
+  <icon>servicepop.png</icon>
+  <connections>
+    <point x="9.05" y="7.5"/>
+    <point x="11.75" y="8.4"/>
+    <point x="9.05" y="8.4"/>
+    <point x="9.05" y="7.95"/>
+    <point x="11.75" y="7.5"/>
+    <point x="11.75" y="7.95"/>
+    <point x="10.4" y="8.4"/>
+    <point x="10.4" y="7.5"/>
+  </connections>
+
+ <ext_attributes>
+    <ext_attribute name="Host" type="string" />
+  </ext_attributes>
+
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:rect style="fill: default" x="9.05" y="7.5" width="2.7" height="0.9"/>
+    <svg:rect style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x="9.05" y="7.5" width="2.7" height="0.9"/>
+    <svg:text style="fill: #000000; font-size: 0.8; text-anchor:start; font-family: sans; font-style: normal; font-weight: 700" x="9.6" y="8.2" textLength="1.895">POP</svg:text>
+  </svg:svg>
+</shape>

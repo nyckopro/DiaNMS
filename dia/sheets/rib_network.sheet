@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<sheet xmlns="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns">
+<name>RIB-Network</name>
+<created_by>Thiago Ribeiro - ribeiro.it@gmail.com</created_by>
+<description>A collection of gnome network icons adapted to Dia.</description>
+<contents>
+<object name="windows-server">
+<description>Windows Server</description>
+</object>
+<object name="linux-server">
+<description>Linux Server</description>
+</object>
+<object name="client">
+<description>Client</description>
+</object>
+<object name="network">
+<description>Network</description>
+</object>
+<object name="web-server">
+<description>Web Server</description>
+</object>
+<object name="thin-client">
+<description>Thin Client</description>
+</object>
+<object name="ftp-server">
+<description>FTP Server</description>
+</object>
+<object name="access-point">
+<description>Wireless Access Point</description>
+</object>
+<object name="switch">
+<description>Switch</description>
+</object>
+<object name="monitor">
+<description>Monitor</description>
+</object>
+<object name="multimedia-server">
+<description>Multimedia Server</description>
+</object>
+<object name="router">
+<description>Router</description>
+</object>
+<object name="database-server">
+<description>Database Server</description>
+</object>
+<object name="database-db2">
+<description>IBM DB2 Database Server</description>
+</object>
+<object name="database-postgresql">
+<description>PostgreSQL Database Server</description>
+</object>
+<object name="database-oracle">
+<description>Oracle Database Server</description>
+</object>
+<object name="database-mysql">
+<description>mySQL Database Server</description>
+</object>
+<object name="mail-server">
+<description>Mail Server</description>
+</object>
+<object name="internet">
+<description>Internet</description>
+</object>
+</contents>
+</sheet>

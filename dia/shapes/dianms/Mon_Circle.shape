@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>DIANMS-SNMP-Circle</name>
+  <icon>Mon_Circle.png</icon>
+  <connections>
+    <point x="8.025" y="7.75"/>
+    <point x="8.025" y="4.6"/>
+    <point x="6.45" y="6.175"/>
+    <point x="9.6" y="6.175"/>
+  </connections>
+ <ext_attributes>
+    <ext_attribute name="Host" type="string" />
+    <ext_attribute name="SNMP_Community" type="string" />
+    <ext_attribute name="SNMP_Version" type="string" />
+    <ext_attribute name="SNMP_Oid" type="string" />
+    <ext_attribute name="SNMP_Instance" type="string" />
+  </ext_attributes>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:ellipse style="fill: default; fill-opacity:0; stroke-width: 0.1;" cx="8.025" cy="6.175" rx="1.575" ry="1.575"/>
+  </svg:svg>
+</shape>

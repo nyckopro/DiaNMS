@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>DIANMS-disk</name>
+  <icon>disk.png</icon>
+  <connections>
+    <point x="17.15" y="9.2"/>
+    <point x="20.1" y="13.45"/>
+    <point x="17.15" y="13.45"/>
+    <point x="17.15" y="11.325"/>
+    <point x="20.1" y="9.2"/>
+    <point x="20.1" y="11.325"/>
+    <point x="18.625" y="13.45"/>
+    <point x="18.625" y="9.2"/>
+  </connections>
+  <ext_attributes>
+    <ext_attribute name="Host" type="string" />
+    <ext_attribute name="Community" type="string"  />
+    <ext_attribute name="Partition" type="string" />
+  </ext_attributes>
+  <textbox x1="17.5" y1="10" x2="20" y2="13" align="center" resize="no"/>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:rect style="fill: #ffffff" x="17.15" y="9.2" width="2.95" height="4.25"/>
+    <svg:rect style="fill: default; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x="17.15" y="9.2" width="2.95" height="4.25"/>
+  </svg:svg>
+</shape>

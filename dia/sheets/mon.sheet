@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sheet xmlns="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns">
+<!--Dia-Version: 0.97-->
+<!--File: /home/nycko/.dia/sheets/mon.sheet-->
+<!--Date: Tue Jul 21 12:17:03 2009-->
+<!--For: nycko-->
+
+<name>Mon</name>
+<description>Objects to design network diagrams with and Monitoring</description>
+<contents>
+<!--add shapes here-->
+
+<object name="Mother-SNMP-Circle">
+	<description>Monitoring Circle</description>
+</object>
+
+<object name="Mother-SNMP-Square">
+	<description>Monitoring Square</description>
+</object>
+
+<object name="Mother-snmpNube">
+	<description>extOutput OID Personalizado</description>
+</object>
+
+<object name="Mother-PING-Rectangle">
+	<description>Monitoring Rectangle</description>
+</object>
+
+<object name="Mother-IfStatus">
+	<description>IfStatus</description>
+</object>
+
+<object name="Mother-PING-Server">
+	<description>Monitoring Server</description>
+</object>
+<object name="Mother-PING-Wireless">
+	<description>Ping AP</description>
+	</object>
+
+<object name="Mother-STP-Circle">
+	<description>Spanning Tree</description>
+</object>
+
+<object name="Mother-service-http">
+	<description>Services Monitoring: HTTP</description>
+</object>
+
+<object name="Mother-service-dns">
+	<description>Services Monitoring: DNS</description>
+</object>
+
+<object name="Mother-service-mysql">
+	<description>Services Monitoring: MySQL</description>
+</object>
+
+</contents>
+
+</sheet>

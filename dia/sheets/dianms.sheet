@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sheet xmlns="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns">
+<!--Dia-Version: 0.97-->
+<!--File: /home/nycko/.dia/sheets/mon.sheet-->
+<!--Date: Tue Jul 21 12:17:03 2009-->
+<!--For: nycko-->
+
+<name>DiaNMS</name>
+<description>Objects to design network diagrams with and Monitoring</description>
+<contents>
+<!--add shapes here-->
+
+<object name="DIANMS-SNMP-Circle">
+	<description>Monitoring Circle</description>
+</object>
+
+<object name="DIANMS-SNMP-Square">
+	<description>Monitoring Square</description>
+</object>
+
+<object name="DIANMS-snmpNube">
+	<description>extOutput OID Personalizado</description>
+</object>
+
+<object name="DIANMS-PING-Rectangle">
+	<description>Monitoring Rectangle</description>
+</object>
+
+<object name="DIANMS-IfStatus">
+	<description>IfStatus</description>
+</object>
+
+<object name="DIANMS-PING-Server">
+	<description>Monitoring Server</description>
+</object>
+<object name="DIANMS-PING-Wireless">
+	<description>Ping AP</description>
+	</object>
+
+<object name="DIANMS-STP-Circle">
+	<description>Spanning Tree</description>
+</object>
+
+<object name="DIANMS-service-http">
+	<description>Services Monitoring: HTTP</description>
+</object>
+
+<object name="DIANMS-service-dns">
+	<description>Services Monitoring: DNS</description>
+</object>
+
+<object name="DIANMS-service-mysql">
+	<description>Services Monitoring: MySQL</description>
+</object>
+
+<object name="DIANMS-service-generic">
+	<description>Services Monitoring: Generic</description>
+</object>
+
+<object name="DIANMS-PING-Router">
+	<description>Ping Router</description>
+</object>
+<object name="DIANMS-disk">
+	<description>Disk Usage</description>
+</object>
+<object name="DIANMS-ubiquiti-stations">
+	<description>Ubiquiti Stations</description>
+</object>
+<object name="DIANMS-snmp-server">
+	<description>Monitoring Server SNMP</description>
+</object>
+</contents>
+
+</sheet>
